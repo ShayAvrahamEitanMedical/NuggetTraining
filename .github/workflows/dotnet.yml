@@ -38,6 +38,12 @@ jobs:
     # Build
     - name: Build 
       run: dotnet build NuggetTraining.sln -p:Configuration=Release
+
+      #p ack
+    - name: Pack 
+      run: dotnet pack --configuration Release
+
+      
       
     - name: Upload build artifacts
       uses: actions/upload-artifact@v4
