@@ -37,7 +37,7 @@ jobs:
 
     # Build
     - name: Build 
-      run: dotnet build ConsoleApp1\ConsoleApp1.sln -p:Configuration=Release
+      run: dotnet build NuggetTraining.sln -p:Configuration=Release
       
     - name: Upload build artifacts
       uses: actions/upload-artifact@v4
