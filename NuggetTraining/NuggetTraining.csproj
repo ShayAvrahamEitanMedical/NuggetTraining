@@ -10,7 +10,7 @@
 
 <PropertyGroup>
 	<PackageId>NuggetTraining</PackageId>
-	<Version>12.4.0</Version>
+	<Version>12.5</Version>
 	<PackageTags>Tag</PackageTags>
 	<Description>
 			My Description
