@@ -17,5 +17,10 @@
 	</Description>
 	<Title>Tiltle 4525</Title>
 	<IncludeSymbols>True</IncludeSymbols>
+	<RunPostBuildEvent>OnOutputUpdated</RunPostBuildEvent>
 </PropertyGroup>
+
+<Target Name="PostBuild" AfterTargets="PostBuildEvent">
+  <Exec Command="rem copy &quot;$(TargetDir)&quot; &quot;C:\kk\ConsoleApp21\ConsoleApp21\bin\Debug\net9.0&quot;" />
+</Target>
 </Project>
