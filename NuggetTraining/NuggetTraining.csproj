@@ -15,5 +15,7 @@
 	<Description>
 			My Description
 	</Description>
+	<Title>Tiltle 4525</Title>
+	<IncludeSymbols>True</IncludeSymbols>
 </PropertyGroup>
 </Project>
