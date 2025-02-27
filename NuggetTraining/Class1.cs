@@ -2,7 +2,7 @@
 {
     public class Class1
     {
-        public static string Get() => "KOKO132";
+        public static string Get() => "KOKO200";
 
     }
 }
